@@ -16,12 +16,22 @@
   justify-content: flex-end;
 }
 
+/*------ LINKS ------*/
+
+a:link,
+a:visited {
+  /* removes underline */
+  text-decoration: none;
+}
+
 /*-------------------------------------------------*/
 /* HEADER */
 /*-------------------------------------------------*/
 
+/* nav ul */
 .main-nav {
   display: flex;
   justify-content: space-between;
-  font-style: none;
+  /* removes bullet points */
+  list-style: none;
 }
