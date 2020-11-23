@@ -5,6 +5,24 @@
 * {
   margin: 0;
   padding: 0;
+
+  /* tells the browser to account for any border and padding in the values you specify for an element's width and height */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  
+  /* text color */
+  color: #555;
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+
+
 }
 
 /*-------------------------------------------------*/
@@ -14,6 +32,26 @@
 .row {
   display: flex;
   justify-content: flex-end;
+}
+
+/*------ HEADINGS ------*/
+
+h1,
+h2,
+h3 {
+    /* redundant?? see basic settings */
+    text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  
+  /* is relative, 240% of 'global' 20px specified in html tag in basic setup */
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
 }
 
 /*------ LINKS ------*/
@@ -32,6 +70,7 @@ header {
   /* layers a one-color (black), semi-transparent gradient layer over jpeg  */
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/annie-spratt-BTxST9grJHw-unsplash.jpg);
   background-size: cover;
+  background-color: aliceblue;
 
   /* sets header height to be 100% of view port */
   height: 100vh;
