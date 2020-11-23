@@ -28,7 +28,17 @@ a:visited {
 /* HEADER */
 /*-------------------------------------------------*/
 
-/* nav ul */
+header {
+  /* layers a one-color, semi-transparent gradient layer over jpeg  */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/annie-spratt-BTxST9grJHw-unsplash.jpg);
+  background-size: cover;
+
+  /* sets header height to be 100% of view port */
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+/* <ul> */
 .main-nav {
   display: flex;
   justify-content: space-between;
