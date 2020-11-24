@@ -76,6 +76,7 @@ header {
 }
 
 header .row {
+  /* background-color: antiquewhite; */
   justify-content: flex-end;
 }
 
@@ -87,6 +88,7 @@ header .row {
   /* removes bullet points */
   list-style: none;
   margin-top: 55px;
+  margin-right: 5%;
 }
 
 .main-nav li {
