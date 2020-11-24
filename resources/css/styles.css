@@ -71,7 +71,7 @@ header {
   background-color: aliceblue;
 
   /* sets header height to be 100% of view port */
-  height: 100vh;
+  height: 631px;
   background-attachment: fixed;
 }
 
