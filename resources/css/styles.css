@@ -68,15 +68,14 @@ header {
   /* layers a one-color (black), semi-transparent gradient layer over jpeg  */
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/annie-spratt-BTxST9grJHw-unsplash.jpg);
   background-size: cover;
+  /* in case image doesn't load */
   background-color: aliceblue;
 
-  /* sets header height to be 100% of view port */
-  height: 631px;
+  height: 632px;
   background-attachment: fixed;
 }
 
 header .row {
-  /* background-color: antiquewhite; */
   justify-content: flex-end;
 }
 
@@ -84,9 +83,9 @@ header .row {
 .main-nav {
   /* arranges <li> elements in a row */
   display: flex;
-  justify-content: space-between;
   /* removes bullet points */
   list-style: none;
+
   margin-top: 55px;
   margin-right: 5%;
 }
@@ -110,14 +109,14 @@ header .row {
 
 .hero-text-box {
   /* this places the top-left corner of this <div> at the center of the viewport */
-  position: absolute;
+  position: relative;
   width: 1140px;
   top: 50%;
   left: 50%;
 
   /* pushes element half of its height up and half of its width to the left*/
   /* without below, 'centered' part of element would be the top-left corner */
-  transform: translate(-50%,-50%)
+  transform: translate(-50%, -100%)
 }
 
 .hero-text-box h2 {
