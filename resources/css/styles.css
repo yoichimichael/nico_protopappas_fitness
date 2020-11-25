@@ -52,6 +52,26 @@ h1 {
   letter-spacing: 1px;
 }
 
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* pseudo element */
+h2::after {
+  display: block;
+  height: 2px;
+  background-color: #E67039;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px
+
+}
+
+
 /*------ LINKS ------*/
 
 a:link,
@@ -131,8 +151,4 @@ header .row {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.about h2 {
-  
 }
