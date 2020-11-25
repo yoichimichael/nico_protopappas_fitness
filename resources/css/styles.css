@@ -18,7 +18,7 @@ body {
   color: #555;
 
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
 
@@ -111,14 +111,28 @@ header .row {
   /* this places the top-left corner of this <div> at the center of the viewport */
   position: relative;
   width: 1140px;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 5%;
 
   /* pushes element half of its height up and half of its width to the left*/
   /* without below, 'centered' part of element would be the top-left corner */
-  transform: translate(-50%, -100%)
+  /* transform: translate(-50%, -100%) */
 }
 
 .hero-text-box h2 {
   color: #fff;
+}
+
+/*-------------------------------------------------*/
+/* ABOUT */
+/*-------------------------------------------------*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h2 {
+  
 }
