@@ -33,6 +33,11 @@ body {
   display: flex;
 }
 
+/* using padding instead of margin to separate section elements */
+section {
+  padding: 80px 0;
+}
+
 /*------ HEADINGS ------*/
 
 h1,
@@ -146,7 +151,6 @@ header .row {
 .hero-text-box h1 span {
   font-size: 70%;
   word-spacing: 2px;
-  margin-bottom: 30px;
   letter-spacing: 1px;
 }
 
