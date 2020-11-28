@@ -59,7 +59,11 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* pseudo element */
+/* 
+  * pseudo element
+  * adds underline to h2 elements
+*/
+
 h2::after {
   display: block;
   height: 2px;
@@ -138,6 +142,14 @@ header .row {
   /* without below, 'centered' part of element would be the top-left corner */
   /* transform: translate(-50%, -100%) */
 }
+
+.hero-text-box h1 span {
+  font-size: 70%;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
 
 .hero-text-box h2 {
   color: #fff;
