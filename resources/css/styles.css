@@ -32,6 +32,11 @@ body {
   display: flex;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 /* using padding instead of margin to separate section elements */
 section {
   padding: 80px 0;
@@ -61,6 +66,11 @@ h2 {
   word-spacing: 2px;
   margin-bottom: 30px;
   letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px
 }
 
 /* 
@@ -163,8 +173,6 @@ header .row {
 /*-------------------------------------------------*/
 
 .about {
-  display: flex;
-  flex-direction: column;
   /* centers both <h2> and <p> elements */
   align-items: center;
 }
@@ -172,4 +180,27 @@ header .row {
 .about p {
   line-height: 145%;
   width: 70%;
+}
+
+/*-------------------------------------------------*/
+/* SERVICES */
+/*-------------------------------------------------*/
+
+.section-services {
+ width: 80%; 
+}
+
+.services {
+  align-items: center;
+}
+
+.service-1,
+.service-2,
+.service-3 {
+  /* width: 66%; */
+}
+
+.services p {
+  margin-bottom: 30px;
+  line-height: 145%;
 }
