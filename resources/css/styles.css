@@ -194,11 +194,12 @@ header .row {
 .section-services {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .services {
   max-width: 1140px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .service-1,
@@ -207,11 +208,28 @@ header .row {
   width: 70%;
 }
 
+.service-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/jonathan-borba-R0y_bEUjiOM-unsplash.jpg);
+  background-size: cover;
+}
+
 .service-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/gmb-fitness-NYCVycvTbek-unsplash.jpg);
+  background-size: cover;
   align-self: flex-end;
+}
+
+.service-3 {
+  background-image: url(../img/ahmad-odeh-ckm1yAe6jhU-unsplash.jpg);
+  background-size: cover;
+}
+
+.services h3 {
+  color: #fff;
 }
 
 .services p {
   margin-bottom: 30px;
   line-height: 145%;
+  color: #fff;
 }
