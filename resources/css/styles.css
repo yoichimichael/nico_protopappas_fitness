@@ -37,6 +37,10 @@ body {
   flex-direction: column;
 }
 
+.long-copy-box {
+  max-width: 1140px;
+}
+
 /* using padding instead of margin to separate section elements */
 section {
   padding: 80px 0;
@@ -146,9 +150,10 @@ header .row {
 }
 
 .hero-text-box {
+  width: 1140px;
+
   /* this places the top-left corner of this <div> at the center of the viewport */
   position: relative;
-  width: 1140px;
   top: 30%;
   left: 5%;
 
@@ -163,14 +168,14 @@ header .row {
   letter-spacing: 1px;
 }
 
-
-.hero-text-box h2 {
-  color: #fff;
-}
-
 /*-------------------------------------------------*/
 /* ABOUT */
 /*-------------------------------------------------*/
+
+.section-about {
+  display: flex;
+  justify-content: center;
+}
 
 .about {
   /* centers both <h2> and <p> elements */
@@ -187,17 +192,23 @@ header .row {
 /*-------------------------------------------------*/
 
 .section-services {
- width: 80%; 
+  display: flex;
+  justify-content: center;
 }
 
 .services {
+  max-width: 1140px;
   align-items: center;
 }
 
 .service-1,
 .service-2,
 .service-3 {
-  /* width: 66%; */
+  width: 70%;
+}
+
+.service-2 {
+  align-self: flex-end;
 }
 
 .services p {
