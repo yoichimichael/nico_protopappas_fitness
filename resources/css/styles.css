@@ -261,7 +261,7 @@ header .row {
   overflow: auto;
 }
 
-cite {
+blockquote figcaption {
   margin-top: 20px;
 
   /* see README for explanation of use */
