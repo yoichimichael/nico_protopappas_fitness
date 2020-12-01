@@ -1,0 +1,2 @@
+* * Testimonials
+* In order to push the <cite> elements to the right of their <blockquote> containers, I applied the "display: inline-block" property to the <cite> elements and used <br> elements preceding them to cause a line break. Then, by applying "float: right" to the <cite> elements, I was able to push them to the right. I could not use both "display: block," which would normally cause a line break, AND "float: right" properties on the <cite> elements.

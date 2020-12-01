@@ -250,14 +250,20 @@ header .row {
   justify-content: space-evenly;
 }
 
+.testimonials span {
+  /* clear: right; */
+}
+
 .testimonial-1,
 .testimonial-2,
 .testimonial-3 {
   width: 20%;
+  overflow: auto;
 }
 
 cite {
-  /* float: right; */
   margin-top: 20px;
-  display: block;
+
+  /* see README for explanation of use */
+  float: right;
 }
