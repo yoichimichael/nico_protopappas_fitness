@@ -206,17 +206,20 @@ header .row {
 .service-2,
 .service-3 {
   width: 70%;
+  border-radius: 5px;
 }
 
 .service-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/jonathan-borba-R0y_bEUjiOM-unsplash.jpg);
   background-size: cover;
+  margin-bottom: 30px;
 }
 
 .service-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/gmb-fitness-NYCVycvTbek-unsplash.jpg);
   background-size: cover;
   align-self: flex-end;
+  margin-bottom: 30px;
 }
 
 .service-3 {
@@ -240,4 +243,21 @@ header .row {
 
 .testimonials {
   align-items: center;
+}
+
+.testimonials .row {
+  max-width: 1140px;
+  justify-content: space-evenly;
+}
+
+.testimonial-1,
+.testimonial-2,
+.testimonial-3 {
+  width: 20%;
+}
+
+cite {
+  /* float: right; */
+  margin-top: 20px;
+  display: block;
 }
