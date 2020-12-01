@@ -233,3 +233,11 @@ header .row {
   line-height: 145%;
   color: #fff;
 }
+
+/*-------------------------------------------------*/
+/* TESTIMONIALS */
+/*-------------------------------------------------*/
+
+.testimonials {
+  align-items: center;
+}
