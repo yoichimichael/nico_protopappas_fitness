@@ -267,3 +267,11 @@ blockquote figcaption {
   /* see README for explanation of use */
   float: right;
 }
+
+/*-------------------------------------------------*/
+/* CONTACT */
+/*-------------------------------------------------*/
+
+.contact {
+  align-items: center;
+}
