@@ -275,3 +275,17 @@ blockquote figcaption {
 .contact {
   align-items: center;
 }
+
+form {
+  display: flex;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
