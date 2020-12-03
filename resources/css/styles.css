@@ -216,29 +216,29 @@ header .row {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .service-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/jonathan-borba-R0y_bEUjiOM-unsplash.jpg);
-  background-size: cover;
   margin-bottom: 30px;
 }
 
 .service-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/gmb-fitness-NYCVycvTbek-unsplash.jpg);
-  background-size: cover;
   align-self: flex-end;
   margin-bottom: 30px;
 }
 
 .service-3 {
   background-image: url(../img/ahmad-odeh-ckm1yAe6jhU-unsplash.jpg);
-  background-size: cover;
 }
 
 .services h3 {
   /* color: #fff; */
   margin-top: 30px;
+  text-align: center;
 }
 
 .services p {
